@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Sungsim resume!</title>
+    <style>
+        div {
+            font-family: 'Merriweather', serif;
+        }
+        div#outer {
+        /* border: 1px solid #084C41; */
+        border-radius: 10px;
+        }
+        div#namepart {
+            border: #084C41;
+            background-color: #084C41;
+            border-radius: 10px;
+            color : white;
+            /* text-align: center; */
+        }
+        span.name {
+            font-weight: bold;
+            font-size:xx-large;
+        }
+        span.title{
+            font-size:24px;
+        }
+        span.content{
+            font-size : 13px;
+        }
+        span.subtitle{
+            font-size:16px;
+        }
+        span.period {
+            font-size:10px;
+            color: gray;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <div class="container-sm" id="outer">
+        <div class="row justify-content-start">
+                <div class="col-4" id="namepart">
+                    <div style="margin-top: 50px;"></div>
+                    <img src="./yangsungsim.jpg" class="rounded mx-auto d-block" alt="photo"><br>
+                    <div style="text-align: center;"><span class="name" >SungSim Yang</span><br></div>
+                    <hr style="width: 50%;  margin-left: 80px;"/><br><br>
+                    <div style="margin-left: 30px;">
+                        <span class="title">Details</span><br>
+                        <span class="content">+821076507082</span><br>
+                        <span  class="content">yangsungsim227@gmail.com</span><br><br><br>
+                        <span class="title">Skills</span><br>
+                        <span class="content">Ability to Multitask</span>
+                    </div>
+                    
+                </div>
+                <div class="col-8">
+                    <div style="margin-top: 50px;"></div>
+                    <div style="margin-left: 30px;">
+                        <span class="title">Profile</span><br>
+                        <span class="content">Passionate Data engineer with 3 years of experience and high availability of learning new skills</span><br><Br>
+                        
+                        <span class="title">Employment History</span><br>
+                        <span class="subtitle">Front developer at PMI, Seoul</span><br>
+                        <span class="period">Mar, 2020 - Mar, 2020</span><br>
+                        <span class="content">- Developing questionnaire page with javascript, ASP.net and Jquery, Vue.js.<br>
+                            - Web scraping and NLP analysis to get the result of residents interests in certain province with Django, python, MongoDB</span><br><br>
+                        
+                        <span class="subtitle">Data analyst at Nuriggumsoft, Seoul</span><br>
+                        <span class="period">Aug, 2020 - Dec, 2020</span><br>
+                        <span class="content">- IOT Data Analysis in LG electronic , transforming Spark code into python code.  Deriving the most efficient rule of trouble processing. <br>
+                            - Extracting data for North America Customer report<br>
+                            - Cluster Analysis  to get causes of freezing</span><br><br>
+
+                        <span class="subtitle">Data engineer at Nuriggumsoft, Seoul</span><br>
+                        <span class="period">Jan, 2021 - Jul, 2021</span><br>
+                        <span class="content">- Drawing architecture of Structured and unstructured data<br>
+                            - QA tester & Checking Data Consistency<br>
+                            - Migrating RDB data to AWS S3 through glue and athena</span><br><br>
+
+                        <span class="subtitle">Data Analyst at foslab, Seoul</span><br>
+                        <span class="period">Oct, 2017 - Dec, 2019</span><br>
+                        <span class="content">- Web scraping stock , Stock Price Index data<br> 
+                            - Analyzing financial data<br>
+                            - system trader<br>
+                            - automating office work by python</span><br><br>
+                        
+                        <span class="title">Education</span><br>
+                        <span class="subtitle">BA, Hongik University, SeJong city</span><br>
+                        <span class="period">Jul, 2013 - Feb, 2017</span><br>
+                        <span class="content">Finance and insurance </span><br><br>
+
+                        <span class="subtitle">BSc,National Institute for Lifelong Education Credit Bank, SungNam city</span><br>
+                        <span class="period">May, 2021 - Jul, 2021</span><br>
+                        <span class="content">Computer science BSc  </span>
+                    </div>
+                    <div style="margin-bottom: 50px;"></div>
+                </div>
+
+        </div>
+    </div>
+  </body>
+</html>
